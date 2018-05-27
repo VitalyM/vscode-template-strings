@@ -19,4 +19,4 @@ No settings so far
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
