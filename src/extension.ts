@@ -3,7 +3,7 @@ import * as vscode from 'vscode';
 import { process } from './logic';
 
 export function activate(context: vscode.ExtensionContext) {
-    let disposable = vscode.commands.registerCommand('extension.insertArg', async () => {
+    let disposable = vscode.commands.registerCommand('template-strings.insertArg', async () => {
         const editor = vscode.window.activeTextEditor;
         await process(editor);
     });

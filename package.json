@@ -2,7 +2,7 @@
     "name": "template-strings",
     "displayName": "Template Strings",
     "description": "Convert string to template string with argument in place",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "vit-m",
     "engines": {
         "vscode": "^1.20.0"
@@ -15,15 +15,22 @@
         "Programming Languages"
     ],
     "activationEvents": [
-        "onCommand:extension.insertArg"
+        "onCommand:template-strings.insertArg"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.insertArg",
+                "command": "template-strings.insertArg",
                 "title": "Insert Argument",
                 "category": "Template String"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "template-strings.insertArg",
+                "key": "ctrl+alt+a",
+                "mac": "cmd+alt+a"
             }
         ]
     },

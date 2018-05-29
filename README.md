@@ -16,7 +16,3 @@ No anything special, just VS Code
 ## Extension Settings
 
 No settings so far
-
-## Release Notes
-
-### 0.0.1
