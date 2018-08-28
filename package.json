@@ -2,7 +2,7 @@
     "name": "template-strings",
     "displayName": "Template Strings",
     "description": "Convert string to template string with argument in place",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "vit-m",
     "engines": {
         "vscode": "^1.20.0"
@@ -50,6 +50,6 @@
         "util.promisify": "^1.0.0"
     },
     "dependencies": {
-        "typescript": "^2.8.1"
+        "typescript": "^3.0.1"
     }
 }
