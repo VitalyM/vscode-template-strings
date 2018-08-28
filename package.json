@@ -46,8 +46,8 @@
         "@types/node": "^7.0.0",
         "@types/util.promisify": "^1.0.0",
         "tslint": "^5.8.0",
-        "vscode": "^1.1.6",
-        "util.promisify": "^1.0.0"
+        "util.promisify": "^1.0.0",
+        "vscode": "^1.1.21"
     },
     "dependencies": {
         "typescript": "^3.0.1"
