@@ -1,6 +1,10 @@
 # Change Log
 
-## Version 0.0.4
+## Version 0.0.6
+* Release date: March 3, 2020
+* Support typescript 3.8
+
+## Version 0.0.5
 * Release date: June 8, 2019
 * Support typescript 3.5.1
 
