@@ -45,7 +45,7 @@
         "@types/node": "^10.11.1",
         "@types/util.promisify": "^1.0.1",
         "@types/vscode": "^1.42.0",
-        "mocha": "^6.1.4",
+        "mocha": "^10.2.0",
         "tslint": "^5.17.0",
         "util.promisify": "^1.0.0",
         "vsce": "^1.74.0",
