@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 import * as fs from 'fs';
-import * as promisify from 'util.promisify';
+import * as promisify from 'util';
 import { process } from '../logic';
 import * as path from 'path';
 
@@ -30,7 +30,7 @@ export async function prepareTestInput(editor: vscode.TextEditor): Promise<numbe
     return startIndex;
 }
 
-const readFile = promisify(fs.readFile);
+const readFile = promisify.promisify(fs.readFile);
 
 export async function compareInAndOut(inFile: vscode.TextEditor, expectedOffset: number, compareWith: string): Promise<void> {
     const actualPosition = inFile.document.offsetAt(inFile.selection.active);
